@@ -8,6 +8,7 @@
             "email": "andrew.smerdov@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {
         "php": ">=7.1.0"
     },
