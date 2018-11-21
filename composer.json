@@ -1,0 +1,17 @@
+{
+    "name": "vodrems/bracketed-problem",
+    "authors": [
+        {
+            "name": "Andrew Smerdov",
+            "email": "andrew.smerdov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vodrems\\":"/src/"
+        }
+    }
+}
