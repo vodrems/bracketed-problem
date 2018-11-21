@@ -1,7 +1,7 @@
 {
     "name": "vodrems/bracketed-problem",
     "version": "1.0.0",
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Andrew Smerdov",
