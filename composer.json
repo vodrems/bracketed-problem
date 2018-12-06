@@ -1,6 +1,6 @@
 {
     "name": "vodrems/bracketed-problem",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "minimum-stability": "stable",
     "authors": [
         {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vodrems\\":"/src/"
+            "BracketedProblem\\":"/src/"
         }
     }
 }

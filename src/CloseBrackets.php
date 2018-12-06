@@ -1,6 +1,8 @@
 <?php
 
-namespace Vodrems;
+namespace BracketedProblem;
+
+use InvalidArgumentException;
 
 class CloseBrackets
 {
@@ -54,6 +56,8 @@ class CloseBrackets
             }
         }
 
+        $result = $this->checkCountBrackets($this->matchedSymbols);
+
         return $result;
     }
 
@@ -62,7 +66,8 @@ class CloseBrackets
      * @param bool $checkingInProgress
      * @return bool
      */
-    private function checkCountBrackets(array $symbols, bool $checkingInProgress = false): bool {
+    private function checkCountBrackets(array $symbols, bool $checkingInProgress = false): bool
+    {
         $bracket = [
             'open' => "(",
             'close' => ")",
