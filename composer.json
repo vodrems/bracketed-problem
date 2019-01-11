@@ -10,7 +10,8 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0"
+        "php": ">=7.1.0",
+        "laravel/framework": "5.7.*"
     },
     "autoload": {
         "psr-4": {
